@@ -1,0 +1,73 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=03f44879_002D7aa8_002D4ca9_002Db108_002D772aea7d353e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoginTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3d0306f8_002D4c5a_002D44c7_002Db1ec_002Df1ce4179b44f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5869c73b_002D6b12_002D434d_002D8721_002D65bac69b3838/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests.GetUser&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests.CreateUser&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests.CreateUser2&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests.CreateUser3&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests.CreateUser4&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ProjectsTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7bb71cae_002D97ac_002D4e46_002Db54c_002D892cfe70f2a9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b64d8d5_002Dcf77_002D4f5d_002D8ac1_002Dd30c96580ef8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dc68e4aa_002D2b59_002D4a03_002D86e8_002D57c17d229c4c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ReqresTests&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.API.ProjectsTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dcbc5d57_002Db881_002D4b29_002D95eb_002D258a97b8f46c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProjectsTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.ProjectsTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:LoginTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea13857f_002D4d0a_002D4459_002D8cd1_002Dd3219517bb68/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::A759F629-8EDA-4309-8749-85D9A110EF47::net7.0::TAF_TMS_C1onl.Tests.LoginTest&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;A759F629-8EDA-4309-8749-85D9A110EF47/d:Tests/f:ProjectsTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
