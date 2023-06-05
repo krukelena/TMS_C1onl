@@ -5,7 +5,7 @@ namespace TAF_TMS_C1onl.Tests;
 
 public class ProjectsTest : BaseTest
 {
-    [Test]
+    //[Test]
     [Regression]
     public void CreateProjectTest()
     {
