@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAF_TMS_C1onl", "TAF_TMS_C1onl\TAF_TMS_C1onl.csproj", "{A759F629-8EDA-4309-8749-85D9A110EF47}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TAF_TMS_C1onl", "TAF_TMS_C1onl\TAF_TMS_C1onl.csproj", "{A759F629-8EDA-4309-8749-85D9A110EF47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlow Specs", "SpecFlow Specs\SpecFlow Specs.csproj", "{B5B8FA50-9E9C-4C40-A145-13328A5B098C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{A759F629-8EDA-4309-8749-85D9A110EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A759F629-8EDA-4309-8749-85D9A110EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A759F629-8EDA-4309-8749-85D9A110EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B8FA50-9E9C-4C40-A145-13328A5B098C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B8FA50-9E9C-4C40-A145-13328A5B098C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B8FA50-9E9C-4C40-A145-13328A5B098C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B8FA50-9E9C-4C40-A145-13328A5B098C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D725F512-6A8D-4427-91A5-E9E083BC63F6}
 	EndGlobalSection
 EndGlobal
