@@ -8,17 +8,33 @@ public class SimpleDataBaseTest
 {
     private SimpleDBConnector _simpleDbConnector;
     private CustomerService _customersService;
-
-    [Test]
+    
+    [OneTimeSetUp]
     public void tmp()
     {
         _simpleDbConnector = new SimpleDBConnector();
         _customersService = new CustomerService(_simpleDbConnector.Connection);
 
-        _customersService.DropTable();
-        _customersService.CreateTable();
+        //_customersService.DropTable();
+        //_customersService.CreateTable();
 
         _simpleDbConnector.CloseConnection();
+
+
+    }
+    [TearDown]
+    public void TearDown()
+    {
+        _simpleDbConnector.CloseConnection();
+    }
+
+    [Test]
+    public void GetAllCustomerTest()
+    {
+        var customersList = _customersService.GetAllCustomers();
+
+        //Assert.That;
+
     }
 }
 
