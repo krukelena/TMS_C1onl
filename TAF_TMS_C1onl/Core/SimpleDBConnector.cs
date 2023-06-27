@@ -8,15 +8,22 @@ using TAF_TMS_C1onl.Utilites.Configuration;
 
 namespace TAF_TMS_C1onl.Core
 {
-    public NpgsqlConnection? Connection;
+   
     public class SimpleDBConnector
     {
-       var connectionString =
-             $"Host={Configurator.DbSettings.Server};" +
-             $"Port={Configurator.DbSettings.Port};" +
-             $"DataBase={Configurator.DbSettings.Schema};" +
-             $"User ID={Configurator.DbSettings.Username};" +
-             $"Password={Configurator.DbSettings.Password};";
+        public SimpleDBConnector()
+        {
+            string connectionString =
+                 $"Host={Configurator.DbSettings.Server};" +
+                 $"Port={Configurator.DbSettings.Port};" +
+                 $"DataBase={Configurator.DbSettings.Schema};" +
+                 $"User ID={Configurator.DbSettings.Username};" +
+                 $"Password={Configurator.DbSettings.Password};";
+
+            Connection = new NpgsqlConnection(connectionString);
+            Connection.Open();
+        }
+      
 
         public NpgsqlConnection Connection { get; internal set; }
 

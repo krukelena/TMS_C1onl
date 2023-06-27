@@ -80,13 +80,40 @@ namespace TAF_TMS_C1onl.Services.DateBases
             return actualList;
         }
 
-        public void AddCustomer(Customer customer)
+        public int AddCustomer(Customer customer)
         {
+            var sqlQuery = "INSERT INTO customers(firstname, lastname, email, age) VALUES ($1,$2,$3,$4);";
 
+            using var cmd = new NpgsqlCommand(sqlQuery, _connection)
+            {
+                Parameters ={
+
+                    new() { Value = customer.Firstname },
+                    new() { Value = customer.Lastname },
+                    new() { Value = customer.Email },
+                    new() { Value = customer.Age }
+                }
+            };
+
+          return cmd.ExecuteNonQuery();
         }
 
-        public void DeleteCustomer (Customer customer)
+        public int DeleteCustomer (Customer customer)
         {
+            var sqlQuery = "DELETE FROM customers WHERE <condition>;";
+
+            using var cmd = new NpgsqlCommand(sqlQuery, _connection)
+            {
+                Parameters ={
+
+                    new() { Value = customer.Firstname },
+                    new() { Value = customer.Lastname },
+                    new() { Value = customer.Email },
+                    new() { Value = customer.Age }
+                }
+            };
+
+            return cmd.ExecuteNonQuery();
 
         }
     }
